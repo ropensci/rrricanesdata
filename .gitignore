@@ -1,1 +1,4 @@
 *.csv
+.Rproj.user
+.Rhistory
+rrricanesdata.Rproj
