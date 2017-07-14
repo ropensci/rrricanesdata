@@ -1,5 +1,21 @@
-# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
-
-language: R
-sudo: false
+language: r
+warnings_are_errors: true
+matrix:
+  include:
+  - os: linux
+    dist: trusty
+    sudo: false
+    r: 3.3.3
+  - os: linux
+    dist: trusty
+    sudo: false
+    r: release
+  - os: linux
+    dist: trusty
+    sudo: false
+    r: devel
+  - os: osx
+    r: 3.3.3
+  - os: osx
+    r: release
 cache: packages
