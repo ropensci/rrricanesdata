@@ -1,0 +1,21 @@
+language: r
+warnings_are_errors: false
+matrix:
+  include:
+  - os: linux
+    dist: trusty
+    sudo: false
+    r: 3.3.3
+  - os: linux
+    dist: trusty
+    sudo: false
+    r: release
+  - os: linux
+    dist: trusty
+    sudo: false
+    r: devel
+  - os: osx
+    r: 3.3.3
+  - os: osx
+    r: release
+cache: packages

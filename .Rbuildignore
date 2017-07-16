@@ -1,0 +1,7 @@
+^\.travis\.yml$
+^appveyor\.yml$
+^CHANGELOG\.md$
+^README\.Rmd$
+^data-raw$
+^.*\.Rproj$
+^\.Rproj\.user$
