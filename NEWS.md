@@ -1,9 +1,9 @@
-rrricanes 0.0.1 (yyyy-mm-dd)
+rrricanes 0.0.1 (2017-07-16)
 ==================================
 
 ### NEW FEATURES
 
-* NA
+* All product and tidied datasets, both basins, added; covers 1998 to July 13, 2017.
 
 ### MINOR IMPROVEMENTS
 
