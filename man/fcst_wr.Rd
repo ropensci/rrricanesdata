@@ -3,7 +3,7 @@
 \docType{data}
 \name{fcst_wr}
 \alias{fcst_wr}
-\title{Forecast Wind Radius - Forecast wind radius tidied from \code{fstadv}}
+\title{Forecast Wind Radius - Wind radius for each \code{fcst}}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 85255 rows and 9 columns.}
 \usage{
 fcst_wr

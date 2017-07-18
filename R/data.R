@@ -1,7 +1,11 @@
 #' @title rrricanesdata
 #' @description rrricanesdata is the complimentary data package to `rrricanes`.
+#'   It includes all product datasets for north Atlantic and northeast
+#'   Pacific tropical cyclones from 1998 through the previous month. This
+#'   package will be updated on the first of every month provided at least one
+#'   cyclone advisory was issued in the previous month.
 #' @docType package
-#' @name rrricanes
+#' @name rrricanesdata
 NULL
 
 #' Advisory - Basic advisory data

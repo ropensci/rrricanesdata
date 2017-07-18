@@ -3,7 +3,7 @@
 \docType{data}
 \name{wr}
 \alias{wr}
-\title{Wind Radius}
+\title{Wind Radius - Current wind radius}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 19294 rows and 8 columns.}
 \usage{
 wr

@@ -3,7 +3,7 @@
 \docType{data}
 \name{adv}
 \alias{adv}
-\title{Advisory - Basic tidied data from \code{fstadv}}
+\title{Advisory - Basic advisory data}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 12862 rows and 18 columns.}
 \usage{
 adv
