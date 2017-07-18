@@ -3,7 +3,7 @@
 \docType{data}
 \name{fcst}
 \alias{fcst}
-\title{Forecasts - Forecast tidy data from \code{fstadv}}
+\title{Forecasts - Forecast positions per Forecast/Advisory}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 66170 rows and 8 columns.}
 \usage{
 fcst
