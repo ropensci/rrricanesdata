@@ -4,7 +4,7 @@
 rrricanesdata
 =============
 
-`rrricanesdata` is the complimentary dataset for `[rrricanes](https://github.com/timtrice/rrricanes)`. Currently it contains all product datasets for every cyclone that has developed in the north Atlantic and northeast Pacific basins since 1998.
+`rrricanesdata` is the complimentary dataset for [rrricanes](https://github.com/timtrice/rrricanes). Currently it contains all product datasets for every cyclone that has developed in the north Atlantic and northeast Pacific basins since 1998.
 
 `rrricanesdata` will be updated on the first of every month.
 
