@@ -1,10 +1,10 @@
 
-[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.3.3-6666ff.svg)](https://cran.r-project.org/) [![GitHub (pre-)release](https://img.shields.io/github/release/timtrice/rrricanesdata/all.svg)](https://github.com/timtrice/rrricanesdata/tags) [![](http://badges.ropensci.org/118_status.svg)](https://github.com/ropensci/onboarding/issues/118) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/rrricanesdata)](https://cran.r-project.org/package=rrricanesdata) [![Build Status](https://img.shields.io/travis/timtrice/rrricanesdata/master.svg)](https://travis-ci.org/timtrice/rrricanesdata) [![AppVeyor Build Status](https://img.shields.io/appveyor/ci/timtrice/rrricanesdata/master.svg)](https://ci.appveyor.com/project/timtrice/rrricanesdata)
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.3.3-6666ff.svg)](https://cran.r-project.org/) [![GitHub (pre-)release](https://img.shields.io/github/release/ropensci/rrricanesdata/all.svg)](https://github.com/ropensci/rrricanesdata/tags) [![](http://badges.ropensci.org/118_status.svg)](https://github.com/ropensci/onboarding/issues/118) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/rrricanesdata)](https://cran.r-project.org/package=rrricanesdata) [![Build Status](https://img.shields.io/travis/ropensci/rrricanesdata/master.svg)](https://travis-ci.org/ropensci/rrricanesdata) [![AppVeyor Build Status](https://img.shields.io/appveyor/ci/ropensci/rrricanesdata/master.svg)](https://ci.appveyor.com/project/ropensci/rrricanesdata)
 
 rrricanesdata
 =============
 
-`rrricanesdata` is the complementary dataset for [rrricanes](https://github.com/timtrice/rrricanes). Currently it contains all product datasets for every cyclone that has developed in the north Atlantic and northeast Pacific basins since 1998.
+`rrricanesdata` is the complementary dataset for [rrricanes](https://github.com/ropensci/rrricanes). Currently it contains all product datasets for every cyclone that has developed in the north Atlantic and northeast Pacific basins since 1998.
 
 `rrricanesdata` will be updated on the first of every month.
 
@@ -221,19 +221,19 @@ Built With
 Contributing
 ------------
 
-Please read [CONTRIBUTING.md](https://github.com/timtrice/rrricanesdata/blob/master/.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/ropensci/rrricanesdata/blob/master/.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 Versioning
 ----------
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/timtrice/rrricanesdata/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ropensci/rrricanesdata/tags).
 
 Authors
 -------
 
 -   **Tim Trice** - *Initial work* - [timtrice](https://github.com/timtrice)
 
-See also the list of [contributors](https://github.com/timtrice/rrricanesdata/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ropensci/rrricanesdata/contributors) who participated in this project.
 
 License
 -------
@@ -250,4 +250,4 @@ Acknowledgments
 Known Data Quality Issues
 -------------------------
 
-1.  Hurricane Juan (AL152003), Adv 15; no status leads to improper `Status` and `Name` values in some datasets. ([\#82](https://github.com/timtrice/rrricanes/issues/82))
+1.  Hurricane Juan (AL152003), Adv 15; no status leads to improper `Status` and `Name` values in some datasets. ([\#82](https://github.com/ropensci/rrricanes/issues/82))
