@@ -8,9 +8,9 @@ library(rrricanes)
 library(rrricanesdata)
 
 # Load dataset of all products for current year
-# ds <- get_storms() %>%
-#   pull(Link) %>%
-#   get_storm_data(products = c("discus", "fstadv", "public", "update", "wndprb"))
+ds <- get_storms() %>%
+  pull(Link) %>%
+  get_storm_data(products = c("discus", "fstadv", "public", "update", "wndprb"))
 
 # Get names of rrricanesdata datasets
 ds_names <- data(package = "rrricanesdata")$results[,3]
