@@ -8,11 +8,13 @@ rrricanesdata
 
 `rrricanesdata` will be updated on the first of every month.
 
-### Prerequisites
+Prerequisites
+-------------
 
 No prerequisites.
 
-### Installing
+Installing
+----------
 
 `rrricanesdata` can be installed with the following command:
 
