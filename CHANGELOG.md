@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.0.1.4] 2017-09-01
+
+### Added
+  - Updated storm data for month of August
+
+### Changed
+  - NA
+
+### Removed
+  - NA
+
+### Deprecated
+  - NA
+
+### Fixed
+  - NA
+
 ## [0.0.1.3] 2017-08-05
 
 ### Added
