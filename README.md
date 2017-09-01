@@ -26,6 +26,20 @@ install.packages("rrricanesdata",
 
 This package is not nor will be made available in CRAN.
 
+### Updating
+
+As `rrricanesdata` will be updated monthly (provided any advisory was issued the previous month), you will want to ensure you have the latest datasets prior to running any analysis. You need to add the package repository to your `repos` options, such as:
+
+``` r
+local({
+  r <- getOption("repos")
+  r["rrricanesdata"] <- "https://timtrice.github.io/drat/"
+  options(repos = r)
+})
+```
+
+You can then run `update.packages` to check for and install any new updates.
+
 Datasets
 --------
 
