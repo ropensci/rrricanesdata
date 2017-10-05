@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.0.1.5] 2017-10-05
+
+### Added
+  - Added September cylones
+
+### Changed
+  - NA
+
+### Removed
+  - NA
+
+### Deprecated
+  - NA
+
+### Fixed
+  - `fcst` now has 120 hour data. (See [rrricanes #107](https://github.com/ropensci/rrricanes/issues/107))
+  - Updated `storms` (#2)
+
 ## [0.0.1.4] 2017-09-01
 
 ### Added

@@ -1,3 +1,22 @@
+rrricanesdata 0.0.1.5 (2017-10-05)
+==================================
+
+### NEW FEATURES
+
+* Datasets updated through 2017-09-30
+
+### MINOR IMPROVEMENTS
+
+* NA
+
+### BUG FIXES
+
+* NA
+
+### DEPRECATED AND DEFUNCT
+
+* NA
+
 rrricanesdata 0.0.1.3 (2017-08-05)
 ==================================
 
