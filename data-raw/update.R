@@ -44,6 +44,15 @@ if (exists("fstadv")) {
   wr <- tidy_wr(fstadv)
 }
 
+# Build storms dataframe
+storms <- fstadv %>%
+  group_by(Key) %>%
+  summarise(Name = last(Name),
+            Wind = max(Wind, na.rm = TRUE),
+            StartDate = first(Date),
+            EndDate = last(Date)) %>%
+  arrange(StartDate)
+
 # I'm apparently not good enough to be more efficient with this piece.
 devtools::use_data(adv, overwrite = TRUE)
 devtools::use_data(discus, overwrite = TRUE)
@@ -51,6 +60,7 @@ devtools::use_data(fcst, overwrite = TRUE)
 devtools::use_data(fcst_wr, overwrite = TRUE)
 devtools::use_data(fstadv, overwrite = TRUE)
 devtools::use_data(public, overwrite = TRUE)
+devtools::use_data(storms, overwrite = TRUE)
 devtools::use_data(update, overwrite = TRUE)
 devtools::use_data(wndprb, overwrite = TRUE)
 devtools::use_data(wr, overwrite = TRUE)
