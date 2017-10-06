@@ -64,3 +64,10 @@ devtools::use_data(storms, overwrite = TRUE)
 devtools::use_data(update, overwrite = TRUE)
 devtools::use_data(wndprb, overwrite = TRUE)
 devtools::use_data(wr, overwrite = TRUE)
+
+# Rebuild package
+tmp <- tempdir()
+pkg <- devtools::build(path = tmp)
+
+# In the drat project (branch gh-pages), run the following code:
+# drat::insertPackage(pkg, commit = TRUE)
