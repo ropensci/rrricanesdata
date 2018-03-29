@@ -7,3 +7,5 @@
 ^\.Rproj\.user$
 ^docs$
 ^.github$
+^_docker$
+^rrricanesdata.code-workspace

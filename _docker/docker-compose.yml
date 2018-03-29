@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  rstudio:
+    image: timtrice/rrricanesdata:3.4.4
+    container_name: rrricanesdata
+    restart: "no"
+    volumes:
+      - ${HOST_PROJECTS}/.Rprofile:/home/rstudio/.Rprofile
+      - ${HOST_RSTUDIO}:/home/rstudio/.rstudio
+      - ${HOST_RRRICANESDATA}:/home/rstudio/rrricanesdata
+      - ${HOST_DRAT}:/home/rstudio/drat
+    ports:
+      - "8787:8787"
