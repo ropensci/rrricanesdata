@@ -8,4 +8,5 @@
 ^docs$
 ^.github$
 ^_docker$
-^rrricanesdata.code-workspace
+^rrricanesdata.code-workspace$
+^deploy\.sh$
