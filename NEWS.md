@@ -1,3 +1,22 @@
+rrricanesdata 0.1 (2018-01-01)
+==================================
+
+### NEW FEATURES
+
+* Includes all data through 2017 season.
+
+### MINOR IMPROVEMENTS
+
+* NA
+
+### BUG FIXES
+
+* NA
+
+### DEPRECATED AND DEFUNCT
+
+* NA
+
 rrricanesdata 0.0.1.6 (2017-12-09)
 ==================================
 
