@@ -38,7 +38,7 @@ list2env(ds_existing, envir = .GlobalEnv)
 
 # Build tidy fstadv datasets
 if (exists("fstadv")) {
-  adv <- tidy_fstadv(fstadv)
+  adv <- tidy_adv(fstadv)
   fcst <- tidy_fcst(fstadv)
   fcst_wr <- tidy_fcst_wr(fstadv)
   wr <- tidy_wr(fstadv)
