@@ -1,3 +1,22 @@
+rrricanesdata 0.1.1 (yyyy-mm-dd)
+==================================
+
+### NEW FEATURES
+
+* NA
+
+### MINOR IMPROVEMENTS
+
+* NA
+
+### BUG FIXES
+
+* NA
+
+### DEPRECATED AND DEFUNCT
+
+* NA
+
 rrricanesdata 0.1 (2018-01-01)
 ==================================
 
