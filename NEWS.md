@@ -1,9 +1,9 @@
-rrricanesdata 0.1.1 (yyyy-mm-dd)
+rrricanesdata 0.1.1 (2018-06-01)
 ==================================
 
 ### NEW FEATURES
 
-* NA
+* Added cyclones for May, 2018
 
 ### MINOR IMPROVEMENTS
 
