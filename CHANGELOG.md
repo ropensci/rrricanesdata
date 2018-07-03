@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.1.2] 2018-07-01
+
+### Added
+  - EP, AL cyclones for June, 2018
+
+### Changed
+  - NA
+
+### Removed
+  - NA
+
+### Deprecated
+  - NA
+
+### Fixed
+  - NA
+
 ## [0.1.1] 2018-06-01
 
 ### Added
