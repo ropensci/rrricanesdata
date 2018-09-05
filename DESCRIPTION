@@ -5,7 +5,7 @@ Description: Includes storm discussions, forecast/advisories, public advisories,
   wind speed probabilities, strike probabilities and more. This package can be 
   used along with rrricanes (>= 0.2.0-6). Data is considered public domain via 
   the National Hurricane Center.
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: c(person("Tim", "Trice", email = "tim.trice@gmail.com", role = c("aut", "cre")))
 Depends:
   R (>= 3.3.3)
