@@ -1,3 +1,22 @@
+rrricanesdata 0.1.7 (2018-12-01)
+==================================
+
+### NEW FEATURES
+
+* Added cyclones for Nov., 2018
+
+### MINOR IMPROVEMENTS
+
+* NA
+
+### BUG FIXES
+
+* NA
+
+### DEPRECATED AND DEFUNCT
+
+* NA
+
 rrricanesdata 0.1.6 (2018-11-01)
 ==================================
 
