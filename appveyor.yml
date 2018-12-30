@@ -14,7 +14,7 @@ install:
 
 environment:
   global:
-    WARNINGS_ARE_ERRORS: false
+    WARNINGS_ARE_ERRORS:
   matrix:
   - R_VERSION: 3.3.3
     R_ARCH: x64
