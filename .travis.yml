@@ -1,25 +1,18 @@
 language: r
+cache: packages
+sudo: true
 warnings_are_errors: false
+
+before_install:
+  - sudo apt-get --yes --force-yes update -qq
+  - sudo apt-get install --yes libgit2-dev
+
 matrix:
   include:
-  - os: linux
-    dist: trusty
-    sudo: false
-    r: 3.3.3
-  - os: linux
-    dist: trusty
-    sudo: false
-    r: release
-  - os: linux
-    dist: trusty
-    sudo: false
-    r: devel
-  - os: osx
-    r: 3.3.3
-  - os: osx
-    r: release
-
-cache: packages
+  - r: 3.3
+  - r: oldrel
+  - r: release
+  - r: devel
 
 r_github_packages:
   - eddelbuettel/drat
@@ -27,8 +20,3 @@ r_github_packages:
 env:
   global:
     secure: NgrsBpnfUmwACO3Ctqt9Sl4JKHREIuSnSDHrA+LvQahDBskAfcqbkNU7qe8cnDsaStYB7t6nv2VFhG6250R6lgtA2L9JrwlTZLOqtHXfzOPcU+STg0oj0keck75S6uo6/VHQTR7zn2xIxUDTl2ppLMGaA6g57iA2rTvQzqJA1KsPQpB+snqTRRQOYTWyOXv7S0ze6Q4MeeMjHKVRdGXw4TZ4JtyZETChxgqdBpILx5BSRM1/GESx/RYWibqLTGZxDGiG9UbaFMtmmLyZjlLXWUio+D+C2HCDUXfCHNWaM0/jTJNpGik6UQgP/seJoSn4qGd+liCeKgO9auua1oImUluPOzxWbhTidinHhqTLBKIqE9XFpeBYZlz/GWyCyeH+WBfSjFd/sAp1iIXiutZ8Gpb5W9kj/YOueDRdHv/oSKuRANsld5AsVv/zIGpDmUVQWbgCYM6bfj4Ukafg9CEtxI3/x9jw5MvYkLftBGgxNMcrBsgfc+ewoXp71b50ZSwjyuF1FUzuZpY6HCG9JZxeneLL3IGeGj16kVyGTSTFufcDPbv5b4r3E0PHXhzhKbyG4BSgXYMAd7TYvcyd1BV159jt2TnvG2CW496hXA5xvUhdrxSd96nGmikG3c53MoAWDr/kv4P1OEGmD9DX52RO22ie3hi+P8rtRFrgrk1AaD4=
-
-after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && 
-    test $TRAVIS_BRANCH == "master" && 
-    bash deploy.sh
