@@ -1,13 +1,14 @@
 # This step seems required as to this point the cli is not in a branch (?)
 git clone https://github.com/ropensci/rrricanesdata.git
 cd rrricanesdata
+
 # Checkout branch develop
 git checkout travis
 
 # Update datasets
 #Rscript -e "install.packages('remotes');"
 #Rscript -e "remotes::install_github('ropensci/rrricanes@develop');"
-Rscript update_datasets.R --verbose
+Rscript data-raw/update_datasets.R --verbose
 
 # Settings
 GH_REPO="@github.com/$TRAVIS_REPO_SLUG.git"
