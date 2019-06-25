@@ -1,5 +1,5 @@
 # This step seems required as to this point the cli is not in a branch (?)
-git https://github.com/ropensci/rrricanesdata.git
+git clone https://github.com/ropensci/rrricanesdata.git
 
 # Checkout branch develop
 git checkout develop
