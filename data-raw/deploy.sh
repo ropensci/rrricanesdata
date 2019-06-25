@@ -2,7 +2,7 @@
 git clone https://github.com/ropensci/rrricanesdata.git
 cd rrricanesdata
 # Checkout branch develop
-git checkout develop
+git checkout travis
 
 # Update datasets
 #Rscript -e "install.packages('remotes');"
