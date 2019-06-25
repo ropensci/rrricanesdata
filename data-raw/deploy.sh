@@ -1,4 +1,4 @@
-Rscript -e 'install.packages(c("remotes"));'
+Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "remotes", "stringr", "tidyr"));'
 Rscript -e 'remotes::install_github("ropensci/rrricanes@develop");'
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 
