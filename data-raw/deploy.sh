@@ -1,3 +1,5 @@
+Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "stringr", "tidyr"));'
+
 # This step seems required as to this point the cli is not in a branch (?)
 git clone https://github.com/ropensci/rrricanesdata.git
 cd rrricanesdata
