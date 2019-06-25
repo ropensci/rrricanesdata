@@ -1,5 +1,9 @@
+ls -al
+
 # Checkout branch develop
 git checkout develop
+
+ls -al
 
 # Update datasets
 #Rscript -e "install.packages('remotes');"

@@ -14,7 +14,7 @@ matrix:
     deploy:
       provider: script
       script:
-        - bash data-raw/update_rrricanesdata.sh
+        - bash data-raw/update_datasets.sh
       skip_cleanup: true
       on:
         all_branches: true
