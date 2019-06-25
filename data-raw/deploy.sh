@@ -1,4 +1,6 @@
-Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "stringr", "tidyr"));'
+Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "remotes", "stringr", "tidyr"));'
+Rscript -e 'remotes::install_github("ropensci/rrricanes@develop");'
+Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 
 # This step seems required as to this point the cli is not in a branch (?)
 git clone https://github.com/ropensci/rrricanesdata.git
