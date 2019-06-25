@@ -1,5 +1,6 @@
 # This step seems required as to this point the cli is not in a branch (?)
-git checkout master
+git https://github.com/ropensci/rrricanesdata.git
+
 # Checkout branch develop
 git checkout develop
 
