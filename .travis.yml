@@ -3,6 +3,16 @@ cache: packages
 sudo: true
 warnings_are_errors: false
 
+addons:
+  apt:
+    sources:
+      - sourceline: 'ppa:ubuntugis/ppa'
+    packages:
+      - libudunits2-dev
+      - libproj-dev
+      - libgeos-dev
+      - libgdal-dev
+
 before_install:
   - sudo apt-get --yes --force-yes update -qq
   - sudo apt-get install --yes libgit2-dev
