@@ -1,9 +1,7 @@
-ls -al
-
+# This step seems required as to this point the cli is not in a branch (?)
+git checkout master
 # Checkout branch develop
 git checkout develop
-
-ls -al
 
 # Update datasets
 #Rscript -e "install.packages('remotes');"
