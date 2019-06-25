@@ -7,7 +7,7 @@ git checkout develop
 # Update datasets
 #Rscript -e "install.packages('remotes');"
 #Rscript -e "remotes::install_github('ropensci/rrricanes@develop');"
-Rscript update.R --verbose
+Rscript update_datasets.R --verbose
 
 # Settings
 GH_REPO="@github.com/$TRAVIS_REPO_SLUG.git"
