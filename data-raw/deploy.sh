@@ -9,7 +9,7 @@ wget --debug --verbose ${url}
 
 Rscript -e 'readLines(curl::curl("ftp://ftp.nhc.noaa.gov/atcf/pub/"));'
 
-exit 1
+# exit 1
 
 echo "Cloning rrricanesdata"
 
