@@ -1,3 +1,9 @@
+echo "What R Packages are installed?"
+
+Rscript -e 'ip = as.data.frame(installed.packages()[,c(1,3:4)]); ip = ip[is.na(ip$Priority),1:2,drop=FALSE]; ip'
+
+exit 1
+
 echo "Testing curl"
 
 url=ftp://ftp.nhc.noaa.gov/atcf/pub/al012019.public.001
