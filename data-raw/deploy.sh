@@ -1,10 +1,16 @@
-curl -# -o ftp://ftp.nhc.noaa.gov/atcf/pub
+echo "Testing curl"
+
+curl -# -o ftp://ftp.nhc.noaa.gov/atcf/pub/al012019.public.001
 
 exit 1
+
+echo "Installing R packages"
 
 Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "remotes", "stringr", "tidyr"));'
 Rscript -e 'remotes::install_github("ropensci/rrricanes@develop");'
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
+
+echo "Cloning rrricanesdata"
 
 # This step seems required as to this point the cli is not in a branch (?)
 git clone https://github.com/ropensci/rrricanesdata.git
