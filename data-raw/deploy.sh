@@ -2,22 +2,14 @@ echo "What R Packages are installed?"
 
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 Rscript -e 'installed.packages()'
-Rscript -e 'readLines(curl::curl("ftp://ftp.nhc.noaa.gov/atcf/pub/"));'
-
-exit 1
-
-echo "Testing curl"
 
 url=ftp://ftp.nhc.noaa.gov/atcf/pub/al012019.public.001
 curl ${url} -I -o headers -s
-cat  headers
-wget ${url}
-cat al012019.public.001
+wget --debug --verbose ${url}
+
+Rscript -e 'readLines(curl::curl("ftp://ftp.nhc.noaa.gov/atcf/pub/"));'
+
 exit 1
-
-echo "Installing R packages"
-
-Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "stringr", "tidyr"));'
 
 echo "Cloning rrricanesdata"
 
