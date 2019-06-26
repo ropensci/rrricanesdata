@@ -1,6 +1,6 @@
 echo "What R Packages are installed?"
 
-Rscript -e 'ip = as.data.frame(installed.packages()[,c(1,3:4)]); ip = ip[is.na(ip$Priority),1:2,drop=FALSE]; ip'
+Rscript -e 'installed.packages()'
 
 exit 1
 
@@ -15,7 +15,7 @@ exit 1
 
 echo "Installing R packages"
 
-Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "remotes", "stringr", "tidyr"));'
+Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "stringr", "tidyr"));'
 Rscript -e 'remotes::install_github("ropensci/rrricanes@develop");'
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 
