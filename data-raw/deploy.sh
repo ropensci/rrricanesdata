@@ -1,15 +1,6 @@
-echo "What R Packages are installed?"
+echo "Installing rrricanesdata"
 
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
-Rscript -e 'installed.packages()'
-
-url=ftp://ftp.nhc.noaa.gov/atcf/pub/al012019.public.001
-curl ${url} -I -o headers -s
-wget --debug --verbose ${url}
-
-Rscript -e 'readLines(curl::curl("ftp://ftp.nhc.noaa.gov/atcf/pub/"));'
-
-# exit 1
 
 echo "Cloning rrricanesdata"
 
