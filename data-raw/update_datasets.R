@@ -7,19 +7,12 @@ library(magrittr)
 library(rrricanes)
 library(rrricanesdata)
 
-storm_list <-
-  get_storm_list() %>%
-  dplyr::filter(
-    YYYY >= lubridate::year(last_update),
-    # Filter out invest and disturbance areas
-    CY < 70
-  )
+#' Clearly FTP is not going to work on Travis so let's just do the HTML route
+storms <- get_storms(years = lubridate::year(Sys.Date()))
 
-(keys <- storm_list$STORMID)
+products <- get_storm_data(storms$Link)
 
-storm_data <- purrr::map(keys, get_ftp_storm_data)
-
-tibble::glimpse(storm_data)
+tibble::glimpse(products)
 
 #' # ---- libraries ----
 #' library(dplyr)
