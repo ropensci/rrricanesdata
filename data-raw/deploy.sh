@@ -1,6 +1,7 @@
 echo "Installing rrricanesdata"
 
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
+Rscript -e 'install.packages("usethis");'
 
 echo "Cloning rrricanesdata"
 
