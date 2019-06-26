@@ -3,6 +3,7 @@
 #'   the end of the previous month.
 #' @author Tim Trice
 
+library(magrittr)
 library(rrricanesdata)
 
 storm_list <-
