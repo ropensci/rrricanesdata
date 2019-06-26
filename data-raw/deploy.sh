@@ -2,7 +2,7 @@ echo "What R Packages are installed?"
 
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 Rscript -e 'installed.packages()'
-Rscript -e 'readLines(curl("ftp://ftp.nhc.noaa.gov/atcf/pub/"));'
+Rscript -e 'readLines(curl::curl("ftp://ftp.nhc.noaa.gov/atcf/pub/"));'
 
 exit 1
 
