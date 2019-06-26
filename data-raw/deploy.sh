@@ -1,13 +1,10 @@
 echo "Testing curl"
 
 url=ftp://ftp.nhc.noaa.gov/atcf/pub/al012019.public.001
-# just some url
-
 curl ${url} -I -o headers -s
-# download file
-
 cat  headers
-
+wget ${url}
+cat al012019.public.001
 exit 1
 
 echo "Installing R packages"
