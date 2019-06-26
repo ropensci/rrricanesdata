@@ -1,5 +1,7 @@
 echo "What R Packages are installed?"
 
+Rscript -e 'remotes::install_github("ropensci/rrricanes@develop");'
+Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 Rscript -e 'installed.packages()'
 
 exit 1
@@ -16,8 +18,6 @@ exit 1
 echo "Installing R packages"
 
 Rscript -e 'install.packages(c("dplyr", "lubridate", "purrr", "readr", "stringr", "tidyr"));'
-Rscript -e 'remotes::install_github("ropensci/rrricanes@develop");'
-Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 
 echo "Cloning rrricanesdata"
 
