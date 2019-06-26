@@ -2,6 +2,7 @@ language: r
 cache: packages
 sudo: true
 warnings_are_errors: false
+cran: https://cran.rstudio.com
 
 addons:
   apt:
