@@ -4,6 +4,7 @@
 #' @author Tim Trice
 
 library(magrittr)
+library(rrricanes)
 library(rrricanesdata)
 
 storm_list <-
