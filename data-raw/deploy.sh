@@ -1,6 +1,12 @@
 echo "Testing curl"
 
-curl -# -o ftp://ftp.nhc.noaa.gov/atcf/pub/al012019.public.001
+url=ftp://ftp.nhc.noaa.gov/atcf/pub/al012019.public.001
+# just some url
+
+curl ${url} -I -o headers -s
+# download file
+
+cat  headers
 
 exit 1
 
