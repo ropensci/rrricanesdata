@@ -1,8 +1,8 @@
 echo "What R Packages are installed?"
 
-Rscript -e 'remotes::install_github("ropensci/rrricanes@develop");'
 Rscript -e 'remotes::install_github("ropensci/rrricanesdata@develop");'
 Rscript -e 'installed.packages()'
+Rscript -e 'readLines(curl("ftp://ftp.nhc.noaa.gov/atcf/pub/"));'
 
 exit 1
 
@@ -31,7 +31,7 @@ git checkout travis
 # Update datasets
 #Rscript -e "install.packages('remotes');"
 #Rscript -e "remotes::install_github('ropensci/rrricanes@develop');"
-Rscript data-raw/update_datasets.R --verbose
+Rscript --verbose data-raw/update_datasets.R
 
 # Settings
 GH_REPO="@github.com/$TRAVIS_REPO_SLUG.git"
