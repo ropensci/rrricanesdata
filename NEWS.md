@@ -1,3 +1,10 @@
+rrricanesdata 0.2.1 (2019-07-01)
+==================================
+
+### NEW FEATURES
+
+* Add cyclone data for Jun, 2019
+
 rrricanesdata 0.2.0 (2019-06-17)
 ==================================
 
