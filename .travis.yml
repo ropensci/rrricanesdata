@@ -27,5 +27,5 @@ matrix:
         - bash data-raw/deploy.sh
       skip_cleanup: true
       on:
-        all_branches: true
+        branch: develop
   - r: devel
