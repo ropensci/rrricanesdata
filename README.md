@@ -19,22 +19,13 @@ Installing
 `rrricanesdata` can be installed with the following command:
 
 ``` r
-install.packages("rrricanesdata", 
-                 repos = "https://timtrice.github.io/drat/", 
-                 type = "source")
+install.packages("rrricanesdata", repos = c(
+  ropensci = 'https://ropensci.r-universe.dev',
+  CRAN = 'https://cloud.r-project.org'))
 ```
 
 This package is not nor will be made available in CRAN.
 
-### Updating
-
-As `rrricanesdata` will be updated monthly (provided any advisory was issued the previous month), you will want to ensure you have the latest datasets prior to running any analysis. You need to add the package repository to your `repos` options, such as:
-
-``` r
-options(repos = c(getOption("repos"), "https://timtrice.github.io/drat/")
-```
-
-You can then run `update.packages` to check for and install any new updates.
 
 Datasets
 --------
